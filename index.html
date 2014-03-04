@@ -12,7 +12,7 @@
     <style>
     html{
 
-        min-height: 100%;
+        height: 100%;
         position:relative;
     }
     body{
@@ -31,7 +31,7 @@
         color:#ededed;
 
 
-        min-height:100%;
+        height:100%;
     }
 
     a{
@@ -60,12 +60,14 @@
 
     #footer {
       position: absolute;
-      bottom: 0;
       width: 100%;
+
+    bottom:0;
       /* Set the fixed height of the footer here */
       padding-top: 10px;
       padding-bottom:10px;
       background-color: #d2d2d2;
+      height:80px;
   }
 
    img{
@@ -89,20 +91,24 @@ i{
 }
 
 #slidy{
-    min-width:100%;
+    width:100%;
+    /*min-height:100%;*/
+    
 }
 
 #slidy .container{
   min-width:100%;
   padding-left: 60px;
   padding-right:60px;   
+  /*height:100%;*/
+  /*padding-bottom:100px;*/
 }
 
 </style>
 
 </head>
 <body >
-    <div id="slidy">
+   <div id="slidy">
         <div class="container" data-slidr="home">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3" style="text-align:center;padding-bottom:30px;">
@@ -131,7 +137,7 @@ i{
 
         <div class="container" data-slidr="formatore">
             <div class="row">
-                <div class="col-md-6 col-md-offset-3" style="text-align:center;padding-bottom:30px;">
+                <div class="col-md-3 col-md-offset-3" style="text-align:center;padding-bottom:30px;">
 
                     <img src="img/macbook_login.png"/>
                     <p>
@@ -152,16 +158,22 @@ i{
 
      <div class="container" data-slidr="committente">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3" style="text-align:center">
+            <div class="col-md-5" style="text-align:center">
 
-                <h1 class="margin-base-vertical">Sei un committente</h1>
-                <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
-                <p>
-                    per te grandi figate
-                </p>
-                <p>
-                    puoi dire la tua su tanti formatori e lanciare stelline alla cazzo
-                </p>           
+                 <img src="img/macbook_login.png"/>
+               </div>
+               <div class="col-md-6" style="font-size:15px">
+                    <ul>
+                      <li>
+                       crea i tuoi eventi formativi, ricevi feedback dai discenti e dai committenti e condividi con loro il materiale relativo all'esperienza
+                    </li>
+                      <li>
+                       crea i tuoi eventi formativi, ricevi feedback dai discenti e dai committenti e condividi con loro il materiale relativo all'esperienza
+                    </li>
+                      <li>
+                       crea i tuoi eventi formativi, ricevi feedback dai discenti e dai committenti e condividi con loro il materiale relativo all'esperienza
+                    </li>
+                    </ul>                               
 
             </div>
         </div>
