@@ -219,8 +219,8 @@ margin: 0 auto -70px;
 <div id="footer">
   <div class="container" style="text-align:center">
    <div class="row">
-    <div class="col-md-12">
-       <img src="img/sponsors.png"/>
+    <div class="col-md-12" style="vertical-align:middle">
+       <img src="img/sponsors.png" style="vertical-align:middle"/>
    </div></div>
 </div>
 </div>
@@ -228,6 +228,7 @@ margin: 0 auto -70px;
 <script type="text/javascript" src="js/slidr.min.js"></script>
 <script>
 $(function() {
+/*sliding laterale con slidr.js
     var sld=slidr.create('slidy',{
       after: function(e) { console.log('in: ' + e.in.slidr); },
       before: function(e) { console.log('out: ' + e.out.slidr); },
@@ -248,7 +249,23 @@ $(function() {
 
     $('a').click(function(e){
         sld.slide($(this).data('goto'));
+    });*/
+
+function scrollToElement( target ) {
+    var topoffset = 30;
+    var speed = 800;
+    var destination = $( target ).offset().top - topoffset;
+    jQuery( 'html:not(:animated),body:not(:animated)' ).animate( { scrollTop: destination}, speed, function() {
+        window.location.hash = target;
     });
+    return false;
+}
+
+ $('a').click(function(e){
+  e.preventDefault();
+        scrollToElement($('div[data-slidr='+$(this).data('goto')+']')[0]);
+    });
+
 });
 
 
