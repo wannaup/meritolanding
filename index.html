@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap In Practice - Landing Page Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+
+    <link href='http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600' rel='stylesheet'>
+
+    <style>
+html{
+
+    min-height: 100%;
+    position:relative;
+}
+body{
+    background: #cc0000; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #cc0000 0%, #840000 100%, #cc0000 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cc0000), color-stop(100%,#840000), color-stop(100%,#cc0000)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #cc0000 0%,#840000 100%,#cc0000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+            padding-top: 10%;
+            font-size: 19px;
+            font-family: "Open Sans",serif;
+            color:#ededed;
+
+
+            height:100%;
+        }
+
+        a{
+            color:white;
+        }
+        h1 {
+            font-family: "Open Sans", serif;
+            font-weight: 400;
+            font-size: 50px;
+        }
+
+        .margin-base-vertical {
+            margin: 40px 0;
+        }
+
+        .bottom-row{
+            position: absolute; 
+            bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .spacey{
+
+            height:30%;
+
+        }
+
+        #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  padding-top: 10px;
+  padding-bottom:10px;
+  background-color: #d2d2d2;
+}
+
+#footer img{
+    max-width:100%;
+}
+  
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="center-block" style="text-align:center">
+
+                <h1 class="margin-base-vertical">merito al cubo</h1>
+                <p><i class="fa fa-desktop fa-2x"></i><i class="fa fa-mobile fa-2x"></i></p>
+                <p>
+                    entra nel network della formazione
+                </p>
+                <p>
+                    entra in contatto con i tuoi colleghi e valuta gli eventi formativi
+                </p>           
+
+            </div>
+        </div>
+        <div class="row spacey">
+            <div class="pull-right" style="font-style:italic">
+                <a href="#">sono un formatore</a>
+                <span> | </span>
+                <a href="#">sono un committente</a>
+            </div>
+        </div>
+        
+                    
+    </div>
+<div id="footer">
+      <div class="container" style="text-align:center">
+         <div class="row">
+            <div class="col-md-12">
+         <img src="img/sponsors.png"/>
+        </div></div>
+      </div>
+    </div>
+</body>
+</html>
