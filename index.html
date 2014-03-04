@@ -10,138 +10,155 @@
     <link href='http://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600' rel='stylesheet'>
 
     <style>
-html{
+    html{
 
-    min-height: 100%;
-    position:relative;
-}
-body{
-    background: #cc0000; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #cc0000 0%, #840000 100%, #cc0000 100%); /* FF3.6+ */
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cc0000), color-stop(100%,#840000), color-stop(100%,#cc0000)); /* Chrome,Safari4+ */
-background: -webkit-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Chrome10+,Safari5.1+ */
-background: -o-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Opera 12+ */
-background: -ms-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* IE10+ */
-background: radial-gradient(ellipse at center,  #cc0000 0%,#840000 100%,#cc0000 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        min-height: 100%;
+        position:relative;
+    }
+    body{
+        background: #cc0000; /* Old browsers */
+        background: -moz-radial-gradient(center, ellipse cover,  #cc0000 0%, #840000 100%, #cc0000 100%); /* FF3.6+ */
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cc0000), color-stop(100%,#840000), color-stop(100%,#cc0000)); /* Chrome,Safari4+ */
+        background: -webkit-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Opera 12+ */
+        background: -ms-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* IE10+ */
+        background: radial-gradient(ellipse at center,  #cc0000 0%,#840000 100%,#cc0000 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-            padding-top: 10%;
-            font-size: 19px;
-            font-family: "Open Sans",serif;
-            color:#ededed;
+        padding-top: 10%;
+        font-size: 19px;
+        font-family: "Open Sans",serif;
+        color:#ededed;
 
 
-            height:100%;
-        }
+        min-height:100%;
+    }
 
-        a{
-            color:white;
-        }
-        h1 {
-            font-family: "Open Sans", serif;
-            font-weight: 400;
-            font-size: 50px;
-        }
+    a{
+        color:white;
+    }
+    h1 {
+        font-family: "Open Sans", serif;
+        font-weight: 400;
+        font-size: 50px;
+    }
 
-        .margin-base-vertical {
-            margin: 40px 0;
-        }
+    .margin-base-vertical {
+        margin: 40px 0;
+    }
 
-        .bottom-row{
-            position: absolute; 
-            bottom: 0;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .bottom-row{
+        position: absolute; 
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        .spacey{
+    .spacey{
 
-            height:30%;
+        padding-top:4%;
 
-        }
+    }
 
-        #footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  padding-top: 10px;
-  padding-bottom:10px;
-  background-color: #d2d2d2;
-}
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      /* Set the fixed height of the footer here */
+      padding-top: 10px;
+      padding-bottom:10px;
+      background-color: #d2d2d2;
+  }
 
-#footer img{
+  #footer img{
     max-width:100%;
 }
-  
-  i{
+
+i{
     vertical-align:middle;
     margin-left:5px;
-  }
+}
 
 .goon{
     padding-top: 10px;
-  padding-bottom:10px;
+    padding-bottom:10px;
+    text-align:right;
 }
-    </style>
+
+.help-block{
+
+    color:#d2d2d2;
+}
+
+#slidy{
+    min-width:100%;
+}
+
+#slidy .container{
+  min-width:100%;
+  padding-left: 30px;
+  padding-right:70px;   
+}
+
+</style>
 
 </head>
-<body id="slidy">
+<body >
+    <div id="slidy">
+        <div class="container" data-slidr="home">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3" style="text-align:center">
 
-    <div class="container" data-slidr="home">
-        <div class="row">
-            <div class="center-block" style="text-align:center">
+                    <h1 class="margin-base-vertical">merito al cubo</h1>
+                    <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
+                    <p>
+                        entra nel network della formazione
+                    </p>
+                    <p>
+                        entra in contatto con i tuoi colleghi e valuta gli eventi formativi
+                    </p>           
 
-                <h1 class="margin-base-vertical">merito al cubo</h1>
-                <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
-                <p>
-                    entra nel network della formazione
-                </p>
-                <p>
-                    entra in contatto con i tuoi colleghi e valuta gli eventi formativi
-                </p>           
-
+                </div>
             </div>
-        </div>
-        <div class="row ">
-            <div class="pull-right" style="font-style:italic">
-                <div class="goon"><a href="#" class="goformatore">sono un formatore <i class="fa fa-arrow-circle-o-right "></i></a></div>
- 
-               <div class="goon"> <a href="#" class="gocommittente">sono un committente <i class="fa fa-arrow-circle-o-right"></i></a></div>
+            <div class="row spacey">
+                <div class="pull-right" style="font-style:italic">
+                    <div class="goon"><a href="#" data-goto="formatore">sono un formatore <i class="fa fa-arrow-circle-o-right "></i></a></div>
+
+                    <div class="goon"> <a href="#" data-goto="committente">sono un committente <i class="fa fa-arrow-circle-o-right"></i></a></div>
+                </div>
             </div>
+
+
         </div>
-        
-                    
-    </div>
 
         <div class="container" data-slidr="formatore">
-        <div class="row">
-            <div class="center-block" style="text-align:center">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3" style="text-align:center">
 
-                <h1 class="margin-base-vertical">Sei un formatore</h1>
-                <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
-                <p>
-                    per te grandi figate
-                </p>
-                <p>
-                    tante stelline colorate che ti fanno felice
-                </p>           
+                    <h1 class="margin-base-vertical">Sei un formatore</h1>
+                    <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
+                    <p>
+                        per te grandi figate
+                    </p>
+                    <p>
+                        tante stelline colorate che ti fanno felice
+                    </p>           
 
+                </div>
             </div>
-        </div>
-        <div class="row ">
-            <div class="pull-right" style="font-style:italic">
- 
-               <div class="goon"> <a href="#" class="gotoregister">avanti <i class="fa fa-arrow-circle-o-right"></i></a></div>
-            </div>
-        </div>
-        
-                    
-    </div>
+            <div class="row ">
+                <div class="pull-right" style="font-style:italic">
+
+                 <div class="goon"> <a href="#" data-goto="register">avanti <i class="fa fa-arrow-circle-o-right"></i></a></div>
+             </div>
+         </div>
+
+
+     </div>
 
      <div class="container" data-slidr="committente">
         <div class="row">
-            <div class="center-block" style="text-align:center">
+            <div class="col-md-6 col-md-offset-3" style="text-align:center">
 
                 <h1 class="margin-base-vertical">Sei un committente</h1>
                 <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
@@ -156,43 +173,76 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', end
         </div>
         <div class="row ">
             <div class="pull-right" style="font-style:italic">
- 
-               <div class="goon"> <a href="#" class="gotoregister">avanti <i class="fa fa-arrow-circle-o-right"></i></a></div>
-            </div>
-        </div>
-        
-                    
+
+             <div class="goon"> <a href="#" data-goto="register">avanti <i class="fa fa-arrow-circle-o-right"></i></a></div>
+         </div>
+     </div>
+
+
+ </div>
+
+
+ <div class="container" data-slidr="register">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3" style="text-align:center">
+
+            <h1 class="margin-base-vertical">Registrati</h1>
+            
+            <form action="/mailing-list" method="post">
+                <p class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input type="text" class="form-control " name="name" placeholder="Il tuo nome" />
+                </p>
+                <p class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                    <input type="text" class="form-control " name="email" placeholder="La tua email" />
+                </p>
+                <p class="help-block"><small>Sarai tra i primi ad accedere alla piattaforma. Nessuno spam.</small></p>
+                <p>
+                    <button type="submit" class="btn btn-success btn-lg">Keep me posted</button>
+                </p>
+            
+        </form>
     </div>
+   
+</div>
 
+</div>
 
+</div>
 <div id="footer">
-      <div class="container" style="text-align:center">
-         <div class="row">
-            <div class="col-md-12">
-         <img src="img/sponsors.png"/>
-        </div></div>
-      </div>
-    </div>
+  <div class="container" style="text-align:center">
+   <div class="row">
+    <div class="col-md-12">
+       <img src="img/sponsors.png"/>
+   </div></div>
+</div>
+</div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/slidr.min.js"></script>
+<script type="text/javascript" src="js/slidr.min.js"></script>
 <script>
 $(function() {
     var sld=slidr.create('slidy',{
-  after: function(e) { console.log('in: ' + e.in.slidr); },
-  before: function(e) { console.log('out: ' + e.out.slidr); },
-  breadcrumbs: true,
-  controls: 'none',
-  direction: 'horizontal',
-  fade: false,
-  keyboard: false,
-  overflow: true,
-  pause: false,
-  theme: '#222',
-  timing: { 'cube': '0.5s ease-in' },
-  touch: true,
-  transition: 'cube'
-}).start();
+      after: function(e) { console.log('in: ' + e.in.slidr); },
+      before: function(e) { console.log('out: ' + e.out.slidr); },
+      breadcrumbs: false,
+      controls: 'none',
+      direction: 'horizontal',
+      fade: false,
+      keyboard: false,
+      overflow: false,
+      pause: false,
+      theme: '#222',
+      timing: { 'cube': '0.5s ease-in' },
+      touch: true,
+      transition: 'linear'
+  }).start();
 
+
+
+    $('a').click(function(e){
+        sld.slide($(this).data('goto'));
+    });
 });
 
 
