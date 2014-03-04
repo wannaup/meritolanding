@@ -86,9 +86,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', end
     </style>
 
 </head>
-<body>
+<body id="slidy">
 
-    <div class="container">
+    <div class="container" data-slidr="home">
         <div class="row">
             <div class="center-block" style="text-align:center">
 
@@ -105,14 +105,66 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', end
         </div>
         <div class="row ">
             <div class="pull-right" style="font-style:italic">
-                <div class="goon"><a href="#">sono un formatore <i class="fa fa-arrow-circle-o-right "></i></a></div>
+                <div class="goon"><a href="#" class="goformatore">sono un formatore <i class="fa fa-arrow-circle-o-right "></i></a></div>
  
-               <div class="goon"> <a href="#">sono un committente <i class="fa fa-arrow-circle-o-right"></i></a></div>
+               <div class="goon"> <a href="#" class="gocommittente">sono un committente <i class="fa fa-arrow-circle-o-right"></i></a></div>
             </div>
         </div>
         
                     
     </div>
+
+        <div class="container" data-slidr="formatore">
+        <div class="row">
+            <div class="center-block" style="text-align:center">
+
+                <h1 class="margin-base-vertical">Sei un formatore</h1>
+                <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
+                <p>
+                    per te grandi figate
+                </p>
+                <p>
+                    tante stelline colorate che ti fanno felice
+                </p>           
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="pull-right" style="font-style:italic">
+ 
+               <div class="goon"> <a href="#" class="gotoregister">avanti <i class="fa fa-arrow-circle-o-right"></i></a></div>
+            </div>
+        </div>
+        
+                    
+    </div>
+
+     <div class="container" data-slidr="committente">
+        <div class="row">
+            <div class="center-block" style="text-align:center">
+
+                <h1 class="margin-base-vertical">Sei un committente</h1>
+                <p><i class="fa fa-desktop fa-2x"></i><i style="margin-left:15px" class="fa fa-mobile fa-2x"></i></p>
+                <p>
+                    per te grandi figate
+                </p>
+                <p>
+                    puoi dire la tua su tanti formatori e lanciare stelline alla cazzo
+                </p>           
+
+            </div>
+        </div>
+        <div class="row ">
+            <div class="pull-right" style="font-style:italic">
+ 
+               <div class="goon"> <a href="#" class="gotoregister">avanti <i class="fa fa-arrow-circle-o-right"></i></a></div>
+            </div>
+        </div>
+        
+                    
+    </div>
+
+
 <div id="footer">
       <div class="container" style="text-align:center">
          <div class="row">
@@ -121,5 +173,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', end
         </div></div>
       </div>
     </div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slidr.min.js"></script>
+<script>
+$(function() {
+    var sld=slidr.create('slidy',{
+  after: function(e) { console.log('in: ' + e.in.slidr); },
+  before: function(e) { console.log('out: ' + e.out.slidr); },
+  breadcrumbs: true,
+  controls: 'none',
+  direction: 'horizontal',
+  fade: false,
+  keyboard: false,
+  overflow: true,
+  pause: false,
+  theme: '#222',
+  timing: { 'cube': '0.5s ease-in' },
+  touch: true,
+  transition: 'cube'
+}).start();
+
+});
+
+
+
+
+
+</script>
+
 </body>
 </html>
