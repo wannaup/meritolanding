@@ -144,3 +144,15 @@ margin: 0 auto -70px;
       .red{
         color:red;
       }
+
+ul{
+
+  list-style: none;
+  text-align: center;
+}
+
+li{
+
+  padding-top: 1%;
+  padding-bottom:1%;
+}
