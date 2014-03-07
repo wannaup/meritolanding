@@ -47,8 +47,9 @@
 }
 
 i{
-    vertical-align:middle;
+    
     margin-left:5px;
+    margin-right:5px;
 }
 
 .goon{
@@ -73,6 +74,7 @@ margin: 0 auto -70px;
   padding-right:60px;   */
         min-height: 100%;
   height: auto;  
+  
 }
 
  .container.last{
@@ -156,3 +158,4 @@ li{
   padding-top: 1%;
   padding-bottom:1%;
 }
+
