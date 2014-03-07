@@ -1,0 +1,146 @@
+
+    html{
+
+        height: 100%;
+        position:relative;
+    }
+    body{
+        background: #eef0eb; /* Old browsers */
+       
+        
+        font-size: 18px;
+        font-family: "Open Sans",serif;
+        color:#ededed;
+
+
+        height:100%;
+    }
+
+  
+    h1 {
+        font-family: "Open Sans", serif;
+        font-weight: 400;
+        font-size: 50px;
+    }
+
+    .margin-base-vertical {
+        margin: 60px 0;
+    }
+
+    .bottom-row{
+        position: absolute; 
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .spacey{
+      padding-top: 9%;
+    }
+
+  .help-block{
+    color:#F2f2f2;
+  }
+
+   img{
+    max-width:100%;
+}
+
+i{
+    vertical-align:middle;
+    margin-left:5px;
+}
+
+.goon{
+    padding-top: 1%;
+    padding-bottom:15%;
+   
+}
+
+
+
+#slidy{
+    min-height: 100%;
+height: auto;
+height: 100%;
+margin: 0 auto -70px;
+    
+}
+
+#slidy .container{
+  min-width:100%;
+        /*padding-left: 60px;
+  padding-right:60px;   */
+        min-height: 100%;
+  height: auto;  
+}
+
+ .container.last{
+  margin-bottom: 0px !important;
+  min-height: 80% !important;
+}
+
+
+
+  #footer {
+      
+      width: 100%;
+    
+      background-color: #d2d2d2;
+      height:140px;
+  }
+
+  #footer .container{
+    margin-bottom: 0px;
+
+  }
+
+  .bluebg {
+        background: url(../img/bg.jpg) no-repeat, center, center, fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+        background-size: cover;   
+    }
+
+      .greenbg {
+     background: url(../img/bg2.jpg) no-repeat, center, center, fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .last {
+    background: url(../img/bg3.jpg) no-repeat, center, center, fixed;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8%;
+    }
+
+
+    .second-page {
+      padding-top: 300px;
+    }
+      
+      #home{
+         background: -moz-radial-gradient(center, ellipse cover,  #cc0000 0%, #840000 100%, #cc0000 100%); /* FF3.6+ */
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#cc0000), color-stop(100%,#840000), color-stop(100%,#cc0000)); /* Chrome,Safari4+ */
+        background: -webkit-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* Opera 12+ */
+        background: -ms-radial-gradient(center, ellipse cover,  #cc0000 0%,#840000 100%,#cc0000 100%); /* IE10+ */
+        background: radial-gradient(ellipse at center,  #cc0000 0%,#840000 100%,#cc0000 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      }
+      
+      #home a{
+        color:white;
+      }
+
+      .red{
+        color:red;
+      }
